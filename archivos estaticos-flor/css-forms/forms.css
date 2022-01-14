@@ -1,0 +1,81 @@
+
+header .header-forms{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+
+}
+header .header-forms img{
+    border-radius: 50%;
+    width: 20%;
+    
+}
+header .header-forms .line{
+    background-color: var(--tertiaryColor);
+    margin-left:10px;
+    margin-right:10px;
+    height: 1px;
+    width: 40%;
+}
+
+main .greeting{
+    font-family: "Merriweather";
+    color:  var(--tertiaryColor);
+    font-size: 30px;
+    padding:30px;
+}
+
+main .register-form{
+    /* border: 1px solid red; */
+    padding:30px 0px 30px 30px;
+    width: 90%;
+    color:var(--tertiaryColor);
+    box-shadow: 0px 7px 30px rgba(138, 149, 158, 0.2);
+}
+main .register-form form{
+    /* border: 1px solid red; */
+    display:flex;
+    flex-direction: column;
+    font-size: 14px;
+    
+}
+
+main .register-form label{
+ 
+    padding-top:25px;
+}
+
+main .register-form input{
+    border: none;
+    border-bottom: 1px solid var(--principalColor);
+    padding:10px 0px;
+}
+main .register-form  form .final-register{
+    padding-top:30px;
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+
+}
+main .register-form .button{
+    border: none;
+    /* padding:10px; */
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color:white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 30px 0px;
+    box-shadow: 0px 7px 30px rgba(138, 149, 158, 0.2);
+
+}
+
+main .register-form form .forgot-password{
+
+}
+main .register-form form a{
+    color:var(--secondaryColor);
+}
+
+
