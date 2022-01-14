@@ -1,0 +1,19 @@
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+
+}
+.header img{
+    border-radius: 50%;
+    width: 20%;
+    
+}
+.header .line{
+    background-color: var(--tertiaryColor);
+    margin-left:10px;
+    margin-right:10px;
+    height: 1px;
+    width: 40%;
+}
