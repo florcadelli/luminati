@@ -1,0 +1,22 @@
+
+.container{
+    
+    padding: 5%;
+}
+
+.cartHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cartHeader p{
+    font-family: 'Gelasio', serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.divBackIcon{
+    font-size: 35px;
+}

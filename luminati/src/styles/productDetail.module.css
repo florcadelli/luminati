@@ -1,0 +1,105 @@
+
+.container{
+    background-color: #f3f3f3;
+    /* height: 100vh; */
+    
+}
+
+.divBackIcon{
+    background-color: white;
+    position: relative;
+    bottom: 19rem;
+    left: 0.6rem;
+    border-radius: 10px;
+    max-width: 2.5rem;
+    border: 2px solid var(--principalColor);
+}
+
+.backIcon{
+
+    color: #303030;
+    background-color: white;
+    font-size: 2.5rem;
+    padding: 5px 0px 5px 13px;
+    border-radius: 10px;
+    
+}
+
+.photoDiv{
+    width: 90%;
+    border-radius: 50px;
+    padding-top: 15px;
+    margin-left: 5%;
+    
+}
+
+.photoRecibidor{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.productName{
+
+    font-family: 'Gelasio', serif;
+    font-size: 1.5rem;
+    margin: 0px 1rem 10px;
+}
+
+.productDetail{
+display: flex;
+justify-content: space-between;
+margin: 0px 1.5rem;
+}
+
+.productDetail p{
+font-size: 1.8rem;
+font-weight: bold;
+}
+.productNumber{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    
+}
+.productNumber p{
+    font-size: 1.1rem;
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+.minus, .plus{
+    color: var(--tertiaryColor);
+    font-size: 1.5rem;
+}
+
+.productDescription{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.8rem;
+    margin: 1.5rem;
+}
+
+.buy{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+}
+
+.addCart{
+    color: white;
+    background-color: var(--secondaryColor);
+    width: 70%;
+    font-size: 1.25rem;
+    height: 4rem;
+    border-radius: 10px;
+}
+
+.cartIcon{
+    font-size: 1.5rem;
+    color: var(--principalColor);
+    margin-left: 1rem;
+}
