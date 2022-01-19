@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from'../../styles/forms-styles/forms.module.css';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons';
 
 const Login = ({props}) => {
 return (
@@ -19,16 +21,20 @@ return (
           id="mail"
           required
         />
-
         <label htmlFor="password">Contraseña</label>
-        <input className="password"
+         <div className={styles.wrap}>
+         
+         <input className={styles.password}
           type="password"
           placeholder=""
           name="password"
           id="password"
           required
-        />
-
+          />
+         <FontAwesomeIcon icon={faEye} />
+         {/* <FontAwesomeIcon icon={faEyeSlash} /> */}
+         </div>
+  
 
         
         <div className={styles.final}>

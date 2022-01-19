@@ -3,6 +3,7 @@ import HeaderForms from './HeaderForms.jsx';
 import Register from './Register.jsx';
 import Login from './Login.jsx';
 import LoadProduct from './LoadProduct.jsx';
+import EditProduct from './EditProduct.jsx';
 
 const Form = ({props}) => {
 return (
@@ -11,9 +12,10 @@ return (
             <HeaderForms/>
         </header>
         <main>
-            {/* <Register/> */}
-            {/* <Login/> */}
-            <LoadProduct/>
+            <Register/>
+            <Login/>
+            {/* <LoadProduct/> */}
+            {/* <EditProduct/> */}
         </main>    
     </div>
 

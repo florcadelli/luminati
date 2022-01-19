@@ -27,8 +27,11 @@
 .register input{
     border: none;
     border-bottom: 1px solid var(--principalColor);
-    margin:10px 0px;
+    margin-top:10px;
     color:  var(--tertiaryColor);
+}
+.register input:focus{
+    outline: none;
 }
 .register form .final{
     padding-top:30px;
@@ -66,6 +69,9 @@
     color:  var(--tertiaryColor);
 
 }
+.register form .description:focus{
+    outline: none;
+}
 .register form .picture{
     /* background-color: red; */
     display:none;
@@ -101,4 +107,16 @@
 }
 .register form .file:active{
      box-shadow: 0px 5px 10px rgba(3, 3, 3, 0.2) inset;
+}
+
+.register form .file:active{
+    box-shadow: 0px 5px 10px rgba(3, 3, 3, 0.2) inset;
+}
+
+.register form .password{
+    border:none;
+    width: 90%;
+}
+.register form .wrap{
+    border-bottom: 1px solid var(--principalColor);
 }
