@@ -1,0 +1,81 @@
+.headerLogo{
+    display:flex;
+    background-color: var(--principalColor);
+}
+
+.headerLogo img{
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.navScroll{
+    max-height: 8rem;
+    border: 1px solid var(--principalColor);
+    display: flex;
+    overflow: auto;
+}
+
+.navScroll::-webkit-scrollbar{
+    width: 0;
+}
+
+.navScroll .item{ 
+    min-width: 110px;
+    
+    line-height: 3rem;
+    text-align: center;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: var(--principalColor);
+}
+
+.itemTitle{
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: var(--secondaryColor);
+    
+}
+
+.containerCard{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 45%;
+    min-height: 200px;
+    margin-top: 1rem;
+    
+}
+
+.containerCard img{
+    border-radius: 10px;
+    width: 100%;
+    min-height: 80%;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.containerCard h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 0.5rem;
+    color: #606060;
+}
+
+.containerCard h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 0.5rem;
+    color: #303030;
+}
+
+.cardList {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}

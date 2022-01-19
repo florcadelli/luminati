@@ -1,4 +1,4 @@
-import recibidor from './../../images/recibidor.jpg'
+import recibidor from './../../img/recibidor.jpg'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faChevronLeft, faPlusSquare, faShoppingCart, faMinusSquare} from '@fortawesome/free-solid-svg-icons';
 import styles from './../../styles/productDetail.module.css'

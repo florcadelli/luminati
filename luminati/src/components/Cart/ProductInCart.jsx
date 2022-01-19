@@ -1,5 +1,5 @@
 
-import recibidor from './../../images/recibidor.jpg'
+import recibidor from './../../img/recibidor.jpg'
 import styles from './../../styles/productInCart.module.css'
 import { IoMdCloseCircleOutline } from 'react-icons/io';
 import { RiAddFill, RiSubtractFill } from 'react-icons/ri';

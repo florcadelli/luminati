@@ -7,7 +7,7 @@ return (
 <section className={styles.register}>
             <form action="/register.html" method="POST">
             
-                <label for="user-name">Nombre</label>
+                <label htmlFor="user-name">Nombre</label>
                 <input className="user-name"
                   type="text"
                   placeholder=""
@@ -16,7 +16,7 @@ return (
                   required
                 />
                 
-                <label for="mail">Email</label>
+                <label htmlFor="mail">Email</label>
                 <input className="mail"
                   type="mail"
                   placeholder=""
@@ -25,7 +25,7 @@ return (
                   required
                 />
 
-                <label for="password">Contraseña</label>
+                <label htmlFor="password">Contraseña</label>
                 <div>
                 <input className="password"
                   type="password"
@@ -38,7 +38,7 @@ return (
                 </div>
               
 
-                <label for="repeated-password">Confirmar contraseña</label>
+                <label htmlFor="repeated-password">Confirmar contraseña</label>
                 <input className="repeated-password"
                   type="password"
                   placeholder=""
