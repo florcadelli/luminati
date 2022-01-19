@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Rampart+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans&display=swap'); */
 
 :root {
   --principalColor: #99723B;
@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
 }
 
 li{

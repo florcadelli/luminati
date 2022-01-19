@@ -11,7 +11,7 @@ return (
     <form action="/login.html" method="POST">
     
 
-        <label for="mail">Email</label>
+        <label htmlFor="mail">Email</label>
         <input className="mail"
           type="mail"
           placeholder=""
@@ -20,7 +20,7 @@ return (
           required
         />
 
-        <label for="password">Contraseña</label>
+        <label htmlFor="password">Contraseña</label>
         <input className="password"
           type="password"
           placeholder=""

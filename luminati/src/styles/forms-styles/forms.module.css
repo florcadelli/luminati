@@ -16,7 +16,7 @@
     /* border: 1px solid red; */
     display:flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 1rem;
     
 }
 
@@ -32,7 +32,7 @@
 }
 .register form .final{
     padding-top:30px;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
     width: 90%;
 
@@ -43,7 +43,7 @@
     width: 100%;
     background-color: var(--secondaryColor);
     color:white;
-    font-size: 16px;
+    font-size: 1.2rem;
     border-radius: 5px;
     margin: 30px 0px;
     box-shadow: 0px 7px 30px rgba(138, 149, 158, 0.2);
@@ -52,8 +52,53 @@
 .register .button:hover{
     background-color: var(--tertiaryColor);
 }
+.register form .buton:active{
+    box-shadow: 0px 5px 10px rgba(3, 3, 3, 0.2) inset;
+}
 
 .register form a{
     color:var(--secondaryColor);
 }
+.register form .description{
+    border: none;
+    border-bottom: 1px solid var(--principalColor);
+    margin:10px 0px;
+    color:  var(--tertiaryColor);
 
+}
+.register form .picture{
+    /* background-color: red; */
+    display:none;
+}
+.register form .photo{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+}
+
+.register form .field{
+    /* background-color: red; */
+    display: inline-block;
+    height: 40px;
+    border-bottom: 1px solid var(--principalColor);
+    color:  var(--tertiaryColor);
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.register form .file{
+    background-color: var(--tertiaryColor);
+    margin-top: 10px;
+    color: white;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.register form .file:active{
+     box-shadow: 0px 5px 10px rgba(3, 3, 3, 0.2) inset;
+}
