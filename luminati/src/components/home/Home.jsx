@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderLogo from './HeaderLogo';
 import NavCategory from './NavCategory'
 import CardList from './CardList';
+import BottomIconNav from './BottomIconNav'
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
              <HeaderLogo />
              <NavCategory />
              <CardList />
+             <BottomIconNav />
         </div>
     )
 }
