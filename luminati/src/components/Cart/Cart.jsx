@@ -1,7 +1,7 @@
 import ProductInCart from "./ProductInCart";
 import styles from './../../styles/cart.module.css'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faChevronLeft} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = () => {
     return (
@@ -13,12 +13,32 @@ const Cart = () => {
                 <p>Mi Carrito</p>
                 <p></p>
             </div>
+            
+            <main>
+            <ProductInCart />
+            <ProductInCart />
+            <ProductInCart />
+            <ProductInCart />
+            <ProductInCart />
+            <ProductInCart />
+            </main> 
+            
+            
 
+            <footer>
+                <div className={styles.line}></div>
 
-            <ProductInCart />
-            <ProductInCart />
-            <ProductInCart />
+                <div className={styles.totalPrice}>
+                    <p>Total:</p>
+                    <p>$ 30.000</p>
+                </div>
+
+                <button className={styles.continueButton}>Continuar</button>
+
+            </footer>
+
         </div>
+
 
     );
 }
