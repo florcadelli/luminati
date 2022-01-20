@@ -1,19 +1,19 @@
 
 import '../styles/App.css';
-/* import ProductDetail from '../components/ProductDetail/ProductDetail'; */
+ import ProductDetail from '../components/ProductDetail/ProductDetail'; 
 import Cart from '../components/Cart/Cart';
-/* import Form from '../components/forms/Form.jsx'; */
-// import Home from '../components/home/Home.jsx';
+ import Form from '../components/forms/Form.jsx'; 
+ import Home from '../components/home/Home.jsx';
 
 
 function App() {
   return (
     <div className="App">
      {/*  <p>Holis!!</p> */}
-      <Cart/>
+      {/* <Cart/> */}
       {/* <ProductDetail/> */}
        {/* <Form/> */}
-        {/* <Home/>  */}
+        <Home /> 
        
     </div>
   );

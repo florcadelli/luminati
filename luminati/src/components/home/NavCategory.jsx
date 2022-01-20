@@ -12,7 +12,7 @@ function NavCategory() {
         <div className={styles.navScroll} >
             <div className={styles.item}>
                 <BiBed/> 
-                <h2 className={styles.itemTitle}>Dormitorio</h2> 
+                <h2 className={styles.itemTitle}>Dormitorio</h2>
             </div>
             <div className={styles.item}><GiMirrorMirror/><h2 className={styles.itemTitle}>Espejos</h2></div>
             <div className={styles.item}><GiTable/><h2 className={styles.itemTitle}>Mesas</h2></div>
