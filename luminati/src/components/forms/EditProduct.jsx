@@ -2,10 +2,10 @@ import React from 'react'
 import styles from '../../styles/forms-styles/forms.module.css';
 
  
-const LoadProduct = ({props}) => {
+const EditProduct = ({props}) => {
 return (
   <div>
-       <p className={styles.greeting}>Cargar Producto</p>
+       <p className={styles.greeting}>Editar Producto</p>
 <section className={styles.register}>
 
 
@@ -14,7 +14,7 @@ return (
                 <label htmlFor="product-name">Nombre producto</label>
                 <input className="user-name"
                   type="text"
-                  placeholder=""
+                  placeholder="info del producto"
                   name="product-name"
                   id="product-name"
                   required
@@ -23,7 +23,7 @@ return (
                 <label htmlFor="price">Precio</label>
                 <input className="price"
                   type="text"
-                  placeholder=""
+                  placeholder="info del producto"
                   name="price"
                   id="price"
                   required
@@ -32,24 +32,24 @@ return (
                   <textarea className={styles.description}
                   name="description"
                   id="description"
-                  placeholder=""
+                  placeholder="info del producto"
                 ></textarea>
                 
                 <div className={styles.photo}>
                 <label htmlFor="picture" className={styles.file}>SELECCIONAR IMAGEN</label>
-                <label htmlFor="" className={styles.field}></label>  
+                <label htmlFor="" className={styles.field} ></label>  
                 <input className={styles.picture}
                   type="file"
-                  placeholder=""
+                  placeholder="info del producto"
                   name="picture"
                   id="picture"
                   required
                 />
-
+               
                 </div>
             
               <div className={styles.final}>
-                <input className={styles.button} type="submit" value="CONFIRMAR PRODUCTO" />
+                <input className={styles.button} type="submit" value="EDITAR PRODUCTO" />
                 {/* <p> <a href="">EDITAR PRODUCTO</a></p> */}
               </div>
              
@@ -62,7 +62,7 @@ return (
 )
 }
 
-export default LoadProduct
+export default EditProduct
 
 // trabajar con el estado para cargar el nombre de la imagen dentro del label vacio.
 // cuando el input cambie...atrapar el texto interno, pasarlo al estado 

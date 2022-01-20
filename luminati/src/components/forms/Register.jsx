@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../styles/forms-styles/forms.module.css';
-
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons';
  
 const Register = ({props}) => {
 return (
@@ -26,27 +27,33 @@ return (
                 />
 
                 <label htmlFor="password">Contraseña</label>
-                <div>
-                <input className="password"
+                <div className={styles.wrap}>
+                <input className={styles.password}
                   type="password"
                   placeholder=""
                   name="password"
                   id="password"
                   required
                 />
-              {/* <i class="fas fa-eye-slash"></i> */}
+                <FontAwesomeIcon icon={faEye} />
+                {/* <FontAwesomeIcon icon={faEyeSlash} /> */}
                 </div>
               
 
                 <label htmlFor="repeated-password">Confirmar contraseña</label>
-                <input className="repeated-password"
+                <div className={styles.wrap}>
+                <input className={styles.password}
                   type="password"
                   placeholder=""
                   name="repeated-password"
                   id="repeated-password"
                   required
                 />
-                {/* <i class="fas fa-eye-slash"></i> */}
+                <FontAwesomeIcon icon={faEye} />
+                {/* <FontAwesomeIcon icon={faEyeSlash} /> */}
+                </div>
+                
+               
                
 
               <div className={styles.final}>
