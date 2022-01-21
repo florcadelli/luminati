@@ -12,7 +12,7 @@
 
 .cartHeader p{
     font-family: 'Gelasio', serif;
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -35,7 +35,6 @@ footer{
     width: 91%;
     margin-left: 4.8%;
     padding: 5% 0%;
-    /* height: 8.5rem; */
     padding-top: 5%;
     border-top: 2px solid var(--secondaryColor);  
 }
@@ -46,24 +45,24 @@ footer{
 }
 
 .totalPrice p:nth-child(1){
-    font-size: 1.25rem;
+    font-size: 2rem;
     color: #808080;
     font-weight: bold;
 }
 
 .totalPrice p:nth-child(2){
-    font-size: 1.25rem;
+    font-size: 2rem;
     color: #303030;
     font-weight: bold;
 }
 
 .continueButton{
     background-color: var(--secondaryColor);
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: bolder;
     color: white;
     border-radius: 8px;
     width: 100%;
-    margin-top: 1.2rem;
-    padding: 1rem 0px;
+    margin-top: 1.9rem;
+    padding: 1.6rem 0px;
 }

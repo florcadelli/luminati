@@ -1,104 +1,110 @@
-
-.container{
+.container {
     background-color: #f3f3f3;
-    /* height: 100vh; */
-    
+
 }
 
-.divBackIcon{
+.divBackIcon {
     background-color: white;
     position: absolute;
-    top: 5rem;
-    left: 1.5rem;
+    top: 8rem;
+    left: 2.4rem;
     border-radius: 10px;
-    width: 3rem;
-    
+    width: 4.8rem;
+
 }
 
-.backIcon{
+.backIcon {
 
     color: #303030;
     background-color: white;
-    font-size: 3rem;
+    font-size: 4.8rem;
     padding: 5px 0px 5px 13px;
     border-radius: 10px;
-    
+
 }
 
-.photoDiv{
+.photoDiv {
     width: 90%;
     border-radius: 50px;
     margin-left: 10%;
-        
+
 }
 
-.photoRecibidor{
+.photoRecibidor {
     width: 100%;
     border-bottom-left-radius: 50px;
 }
 
-.productName{
+.productName {
 
     font-family: 'Gelasio', serif;
-    font-size: 1.5rem;
-    margin: 15px 1rem 10px;
+    font-size: 2.4rem;
+    margin: 15px 3rem 10px;
 }
 
-.productDetail{
-display: flex;
-justify-content: space-between;
-margin: 0px 1.5rem;
+.productDetail {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px 2.4rem; */
+    margin: 1.5rem 2.4rem 0rem;
 }
 
-.productDetail p{
-font-size: 1.8rem;
-font-weight: bold;
+.productDetail p {
+    font-size: 3rem;
+    font-weight: bold;
 }
-.productNumber{
+
+.productNumber {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
-    
+    width: 40%;
+
 }
-.productNumber p{
-    font-size: 1.1rem;
+
+.productNumber p {
+    font-size: 1.8rem;
     padding-top: 3px;
     font-weight: bold;
 }
 
-.minus, .plus{
-    color: var(--tertiaryColor);
-    font-size: 1.5rem;
+.minus,
+.plus {
+    color: #909090;
+    font-size: 3rem;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    padding: 2px;
+    align-self: center;
 }
 
-.productDescription{
+.productDescription {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     text-align: justify;
-    line-height: 1.8rem;
-    margin: 1.5rem;
+    line-height: 3rem;
+    margin: 2.4rem;
 }
 
-.buy{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 1rem;
+.buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.6rem 1.6rem;
 }
 
-.addCart{
+.addCart {
     color: white;
     background-color: var(--secondaryColor);
     width: 70%;
-    font-size: 1.25rem;
-    height: 4rem;
+    font-size: 2rem;
+    height: 6.4rem;
     border-radius: 10px;
 }
 
-.cartIcon{
-    font-size: 1.5rem;
-    color: var(--principalColor);
-    margin-left: 1rem;
+.cartIcon {
+    font-size: 2.4rem;
+    color: var(--tertiaryColor);
+    margin-left: 3rem;
 }
