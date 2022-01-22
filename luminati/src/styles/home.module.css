@@ -1,3 +1,5 @@
+
+
 .headerLogo{
     display:flex;
     background-color: var(--principalColor);
@@ -34,7 +36,7 @@
     min-width: 60px;
     overflow: hidden;
     white-space: nowrap;
-    font-size: 13px;
+   
     color: var(secondaryColor);
     
     margin-left: 1rem;
@@ -66,7 +68,7 @@
  .nav__text{
     color: var(--secondaryColor);
     font-family: 'Nunito', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /********************** MAIN *********************/
@@ -78,6 +80,7 @@
     min-height: 200px;
     margin-top: 1rem;
     margin-bottom:1rem;
+    font-size: 14px;
     
 }
 
@@ -90,10 +93,17 @@
     overflow: auto;
 }
 
+h2{
+    font-size: 14px;
+}
+h3{
+    font-size: 14px;
+}
+
 .containerCard h3{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    
    
     color: #606060;
 }
@@ -101,7 +111,7 @@
 .containerCard h2{
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    
     padding-top: 0.5rem;
     color: #303030;
 }
@@ -111,6 +121,7 @@
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 1rem;
+    padding-bottom: 4rem;
 }
 
 .navBottom {
@@ -134,7 +145,7 @@
     overflow: hidden;
     white-space: nowrap;
     font-family: sans-serif;
-    font-size: 13px;
+   
     color: #9C9C9C;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
@@ -155,4 +166,27 @@
 
 .nav__icon:hover {
 color: #444444;
+}
+
+/**************WSP ICON****************/
+.btn__wsp{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    line-height: 55px;
+    bottom: 5rem;
+    right: 1.8rem;
+    background-color: #99723B;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.btn__wsp:active{
+    text-decoration: none;
+    color: #99723B;
+    background: #fff;
 }
