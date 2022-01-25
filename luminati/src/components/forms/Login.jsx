@@ -9,7 +9,7 @@ const Login = ({}) => {
   const[submittedForm, changesubmittedForm] = useState(false)
 
 return (
-<div>
+<div className={styles.wrap_form}>
 <p className={styles.greeting}>Hola !</p>
 
   

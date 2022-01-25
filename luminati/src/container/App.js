@@ -12,7 +12,7 @@ function App() {
      {/*  <p>Holis!!</p> */}
       {/* <Cart/> */}
       {/* <ProductDetail/> */}
-       {/* <Form/> */}
+       <Form/>
         {/* <Home />  */}
        
     </div>
