@@ -13,51 +13,51 @@ function NavCategory() {
   return (
     <nav className={styles.navScroll}>
       <a href="#" className={styles.topnav__link}>
-        <i className={styles.topnav__icon}>
+        <div className={styles.topnav__icon}>
           <BiBed />
-        </i>
+        </div>
         <span className={styles.nav__text}>Dormitorio</span>
       </a>
       <a href="#" className={styles.topnav__link}>
-        <i className={styles.topnav__icon}>
+        <div className={styles.topnav__icon}>
           <GiMirrorMirror />
-        </i>
+        </div>
         <span className={styles.nav__text}>Espejos</span>
       </a>
       <a href="#" className={styles.topnav__link}>
-        <i className={styles.topnav__icon}>
+        <div className={styles.topnav__icon}>
           <GiTable />
-        </i>
+        </div>
         <span className={styles.nav__text}>Mesas</span>
       </a>
       <a href="#" className={styles.topnav__link}>
-        <i className={styles.topnav__icon}>
+        <div className={styles.topnav__icon}>
           <GiSofa />
-        </i>
+        </div>
         <span className={styles.nav__text}>Asientos</span>
       </a>
       <a href="#" className={styles.topnav__link}>
-        <i className={styles.topnav__icon}>
+        <div className={styles.topnav__icon}>
           <GiFlexibleLamp />
-        </i>
+        </div>
         <span className={styles.nav__text}>Iluminación</span>
       </a>
       <a href="#" className={styles.topnav__link}>
-        <i className={styles.topnav__icon}>
+        <div className={styles.topnav__icon}>
           <BiDrink />
-        </i>
+        </div>
         <span className={styles.nav__text}>Mi bar</span>
       </a>
       <a href="#" className={styles.topnav__link}>
-        <i className={styles.topnav__icon}>
+        <div className={styles.topnav__icon}>
           <GiFlowerPot />
-        </i>
+        </div>
         <span className={styles.nav__text}>Macetas</span>
       </a>
       <a href="#" className={styles.topnav__link}>
-        <i className={styles.topnav__icon}>
+        <div className={styles.topnav__icon}>
           <GiBookshelf />
-        </i>
+        </div>
         <span className={styles.nav__text}>Estantes</span>
       </a>
 

@@ -12,10 +12,10 @@ return (
             <HeaderForms/>
         </header>
         <main>
-            <Register/>
-            <Login/>
+            {/* <Register/> */}
+            {/* <Login/> */}
             {/* <LoadProduct/> */}
-            {/* <EditProduct/> */}
+            <EditProduct/>
         </main>    
     </div>
 
