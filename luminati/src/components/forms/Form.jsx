@@ -13,9 +13,9 @@ return (
         </header>
         <main>
             {/* <Register/> */}
-            <Login/>
+            {/* <Login/> */}
             {/* <LoadProduct/> */}
-            {/* <EditProduct/> */}
+            <EditProduct/>
         </main>    
     </div>
 

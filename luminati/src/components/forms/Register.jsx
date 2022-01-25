@@ -5,6 +5,8 @@ import {faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons';
  
 const Register = ({props}) => {
 return (
+
+  <div className={styles.wrap_form}>
 <section className={styles.register}>
             <form action="/register.html" method="POST">
             
@@ -58,13 +60,15 @@ return (
 
               <div className={styles.final}>
                 <input className={styles.button} type="submit" value="REGISTRARSE" />
-                <p>Ya tienes una cuenta? <a href="">INICIAR SESIÓN</a></p>
+                <p><a href="">Ya tienes una cuenta? INICIAR SESIÓN</a></p>
               </div>
              
 
             </form>
             
         </section>
+  </div>
+
 )
 }
 

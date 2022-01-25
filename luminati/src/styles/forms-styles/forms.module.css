@@ -1,8 +1,8 @@
 .greeting{
     font-family: "Merriweather";
     color:  var(--tertiaryColor);
-    font-size: 30px;
-    padding:30px;
+    font-size: 2.5rem;
+    padding:10px 30px;
 }
 
 .register{
@@ -16,7 +16,7 @@
     /* border: 1px solid red; */
     display:flex;
     flex-direction: column;
-    font-size: 1rem;
+    font-size: 1.4rem;
     
 }
 
@@ -46,7 +46,7 @@
     width: 100%;
     background-color: var(--secondaryColor);
     color:white;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     border-radius: 5px;
     margin: 30px 0px;
     box-shadow: 0px 7px 30px rgba(138, 149, 158, 0.2);
@@ -130,7 +130,7 @@
     width: 70%;
     height: 30%;
     opacity: 0.7;
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,3 +139,35 @@
     position: absolute;
     top:50%;
 }
+
+@media only screen and (min-width:480px){
+    .wrap_form {
+        /* background-color: green; */
+        margin:auto;
+        height: 500px;
+        width:50%;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .wrap_form{
+        /* background-color: red; */
+        height: 700px;
+      
+    }
+    .register form{
+        font-size: 1.6rem;
+    }
+    .wrap_form a{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .wrap_form{
+        /* background-color: violet; */
+        width:40%;
+    }
+}
+
+/* 320-480-600-768-1024-1200 */
