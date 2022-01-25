@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/luminati/static/css/main.3170dabb.css",
+    "main.js": "/luminati/static/js/main.0996fe8d.js",
+    "static/media/iluminacion01.jpg": "/luminati/static/media/iluminacion01.ddb053df30da116ec7da.jpg",
+    "static/media/recibidor.jpg": "/luminati/static/media/recibidor.b56186d27a33dcaae29d.jpg",
+    "static/media/logo-luminati.png": "/luminati/static/media/logo-luminati.b2c0d73f27b079258aab.png",
+    "index.html": "/luminati/index.html",
+    "main.3170dabb.css.map": "/luminati/static/css/main.3170dabb.css.map",
+    "main.0996fe8d.js.map": "/luminati/static/js/main.0996fe8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3170dabb.css",
+    "static/js/main.0996fe8d.js"
+  ]
+}
