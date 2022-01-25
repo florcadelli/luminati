@@ -230,7 +230,7 @@ color: #444444;
     margin-bottom: 1rem;
     margin-left: 3rem;
     padding-bottom: 8rem;
-    padding-left: 6rem;
+    justify-content: center;
 
     display: flex;
     flex-direction: column;
