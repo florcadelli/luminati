@@ -13,7 +13,7 @@ function App() {
       {/* <Cart/> */}
       {/* <ProductDetail/> */}
        {/* <Form/> */}
-        {/* <Home />  */}
+        <Home /> 
        
     </div>
   );
