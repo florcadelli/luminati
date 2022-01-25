@@ -11,7 +11,7 @@ function App() {
     <div className="App">
      {/*  <p>Holis!!</p> */}
       {/* <Cart/> */}
-      <ProductDetail/>
+      {/* <ProductDetail/> */}
        {/* <Form/> */}
         {/* <Home /> */} 
        

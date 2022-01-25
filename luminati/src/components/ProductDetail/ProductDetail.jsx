@@ -1,6 +1,6 @@
 import recibidor from './../../img/recibidor.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faObjectGroup } from '@fortawesome/free-solid-svg-icons';
 import styles from './../../styles/productDetail.module.css'
 import { RiAddFill, RiSubtractFill } from 'react-icons/ri';
 import { BsCart2 } from 'react-icons/bs'; 
