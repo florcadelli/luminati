@@ -29,6 +29,7 @@
     border-bottom: 1px solid var(--principalColor);
     margin-top:10px;
     color:  var(--tertiaryColor);
+    background-color: #f3f3f3;
 }
 .register input:focus{
     outline: none;

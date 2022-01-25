@@ -14,6 +14,7 @@ function App() {
       {/* <ProductDetail/> */}
        {/* <Form/> */}
         <Home /> 
+
        
     </div>
   );
