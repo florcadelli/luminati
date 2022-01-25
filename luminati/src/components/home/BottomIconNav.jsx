@@ -10,19 +10,19 @@ function BottomIconNav() {
   return (
     <nav className={styles.navBottom}>
       <a href="#" className={styles.nav__link}>
-        <i className={styles.nav__icon}><TiHome/></i>
+        <div className={styles.nav__icon}><TiHome/></div>
         
       </a>
       <a href="#" className={styles.nav__link}>
-        <i className={styles.nav__icon}><BsSearch/></i>
+        <div className={styles.nav__icon}><BsSearch/></div>
         
       </a>
       <a href="#" className={styles.nav__link}>
-        <i className={styles.nav__icon}><HiUser/></i>
+        <div className={styles.nav__icon}><HiUser/></div>
         
       </a>
       <a href="#" className={styles.nav__link}>
-        <i className={styles.nav__icon}><FiShoppingCart/></i>
+        <div className={styles.nav__icon}><FiShoppingCart/></div>
         
       </a>
       
