@@ -144,7 +144,7 @@
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 1rem;
-    padding-bottom: 4rem;
+    
 }
 
 .navBottom {
@@ -219,4 +219,39 @@ color: #444444;
     text-decoration: none;
     color: var(--principalColor);
     background-color: #FFF;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+
+.container__homefooter{
+    margin: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    padding-bottom: 8rem;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+.card__homefooter{
+    margin-bottom: 1rem;
+}
+
+.card__homefooter p, h4{
+    color: #444444;
+    margin: 0.5rem;
+}
+.card__homefooter a{
+    color: #444444;   
+    margin: 0.5rem;
+}
+
+.icon__homefooter{
+    font-size:  2rem;
+    margin-right: 1rem;
+    
+    
 }
