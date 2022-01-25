@@ -12,8 +12,8 @@ function App() {
      {/*  <p>Holis!!</p> */}
       {/* <Cart/> */}
       {/* <ProductDetail/> */}
-       <Form/>
-        {/* <Home /> */} 
+       {/* <Form/> */}
+        {/* <Home />  */}
        
     </div>
   );

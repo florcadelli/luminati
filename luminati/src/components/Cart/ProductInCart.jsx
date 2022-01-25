@@ -11,7 +11,7 @@ const ProductInCart = () => {
                 <img src={recibidor} alt="producto" className={styles.photoProduct} />
             </div>
 
-            <p className={styles.productName}>Recibidor</p>
+            <h2 className={styles.productName}>Recibidor</h2>
             <IoMdCloseCircleOutline className={styles.closeIcon} />
 
 
