@@ -12,7 +12,7 @@ return (
             <HeaderForms/>
         </header>
         <main>
-            <Register/>
+            {/* <Register/> */}
             <Login/>
             {/* <LoadProduct/> */}
             {/* <EditProduct/> */}
