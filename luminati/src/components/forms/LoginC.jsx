@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from'../../styles/forms-styles/forms.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons';
-import {Formik, Form, Field, ErrorMessage} from 'formik'
+import {Formik} from 'formik'
 
 const Login = ({}) => {
 
@@ -46,38 +46,40 @@ return (
           setTimeout (() => changesubmittedForm(false),3000);
       }}
     >
-        {( { errors}) => (
-        <Form>
+        {( {values, errors, touched, handleSubmit,handleChange,handleBlur}) => (
+        <form   onSubmit={handleSubmit}>
            {console.log(errors)}
           
        <label htmlFor="email">Email</label>
-        <Field className="mail"
+        <input className="mail"
           type="email"
           placeholder=""
           name="email"
           id="email"
-        />  
-        <ErrorMessage name='email' component={() => (
-            <div className={styles.error}> {errors.email}</div>
-        )} />
-          
+          value={values.email}
+          onChange={handleChange}
+          onBlur={handleBlur}
+        />   
+           {touched.email && errors.email && <div className={styles.error}> {errors.email}</div>}
          
         <label htmlFor="password">Contraseña</label>
          <div className={styles.wrap}>
          
-         <Field className={styles.password}
+         <input className={styles.password}
           type="password"
           placeholder=""
           name="password"
           id="password"
+          value={values.password}
+          onChange={handleChange}
+          onBlur={handleBlur}
+        
     
           />
          <FontAwesomeIcon icon={faEye} />
          {/* <FontAwesomeIcon icon={faEyeSlash} /> */}
          </div>
-         <ErrorMessage name='password' component={() => (
-            <div className={styles.error}> {errors.password}</div>
-        )} />
+         {touched.password && errors.password && <div className={styles.error}> {errors.password}</div>}
     
     
         
@@ -86,11 +88,11 @@ return (
             <p><a className="forgot-password" href="">Olvido su contraseña?</a></p>
             <input className={styles.button} type="submit" value="INICIAR SESIÓN" />
             <p><a href="">REGISTRARSE</a></p>
-            {submittedForm && <p className={styles.success}>Formulario enviado</p>}
+            {submittedForm && <p>Formulario enviado con exito!</p>}
         </div>
      
     
-    </Form>
+    </form>
         )}
     
     </Formik>
@@ -109,4 +111,4 @@ export default Login
 // Al menos una letra minucula
 // Al menos un dígito
 // No espacios en blanco
-
+// Al menos 1 caracter especial

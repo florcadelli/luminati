@@ -1,8 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from '../../styles/forms-styles/forms.module.css';
 
  
 const EditProduct = ({props}) => {
+      
+  const[inputFile, changeInputFile] = useState('');   
+  
+  const handleInputFile =(e) => {
+    changeInputFile(e.target.value)
+}
+
 return (
   <div>
        <p className={styles.greeting}>Editar Producto</p>
@@ -37,13 +44,17 @@ return (
                 
                 <div className={styles.photo}>
                 <label htmlFor="picture" className={styles.file}>SELECCIONAR IMAGEN</label>
-                <label htmlFor="" className={styles.field} ></label>  
+                <label htmlFor="" className={styles.field} >
+                {inputFile}
+                  </label>  
                 <input className={styles.picture}
                   type="file"
                   placeholder="info del producto"
                   name="picture"
                   id="picture"
-                  required
+                  value={inputFile}
+                  onChange={handleInputFile}
+          
                 />
                
                 </div>

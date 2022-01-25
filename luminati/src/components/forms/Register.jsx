@@ -19,7 +19,7 @@ return (
                 
                 <label htmlFor="mail">Email</label>
                 <input className="mail"
-                  type="mail"
+                  type="email"
                   placeholder=""
                   name="mail"
                   id="mail"
