@@ -8,6 +8,7 @@ html{
   --principalColor: #99723B;
   --secondaryColor: #4F4F4F;
   --tertiaryColor: #9C9C9C;
+  background-color: #f3f3f3;
   
 }
 
@@ -16,8 +17,6 @@ html{
   margin: 0;
   padding: 0;
   font-family: 'Nunito Sans', sans-serif;
-  /* background-color: #f3f3f3; */
-    /* font-size: 14px; */
 }
 
 
