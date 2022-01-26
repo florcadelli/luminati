@@ -37,6 +37,7 @@ footer{
     padding: 5% 0%;
     padding-top: 5%;
     border-top: 2px solid var(--secondaryColor);  
+    background-color: #f3f3f3;
 }
 
 .totalPrice{

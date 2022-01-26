@@ -3,24 +3,25 @@ import styles from "../../styles/home.module.css";
 import { TiHome } from 'react-icons/ti';
 import { HiUser } from 'react-icons/hi';
 import { FiShoppingCart } from 'react-icons/fi';
+import {Link} from 'react-router-dom';
 
 
 function BottomIconNav() {
   return (
     <nav className={styles.navBottom}>
-      <a href="#" className={styles.nav__link}>
+      <Link to="/" className={styles.nav__link}>
         <div className={styles.nav__icon}><TiHome/></div>
         
-      </a>
+      </Link>
 
-      <a href="#" className={styles.nav__link}>
+      <Link to="/formulario/login" className={styles.nav__link}>
         <div className={styles.nav__icon}><HiUser/></div>
         
-      </a>
-      <a href="#" className={styles.nav__link}>
+      </Link>
+      <Link to="/carrito" className={styles.nav__link}>
         <div className={styles.nav__icon}><FiShoppingCart/></div>
         
-      </a>
+      </Link>
       
     </nav>
   );

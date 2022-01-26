@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../styles/forms-styles/forms.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons';
+import {Link} from 'react-router-dom';
  
 const Register = ({props}) => {
 return (
@@ -60,7 +61,7 @@ return (
 
               <div className={styles.final}>
                 <input className={styles.button} type="submit" value="REGISTRARSE" />
-                <p><a href="">Ya tienes una cuenta? INICIAR SESIÓN</a></p>
+                <p><Link to="/formulario/login">Ya tienes una cuenta? INICIAR SESIÓN</Link></p>
               </div>
              
 
