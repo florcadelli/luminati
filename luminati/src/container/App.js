@@ -26,7 +26,7 @@ function App() {
         <Route path="/formulario/*" element={<Form/>}> 
                     <Route path="login" element={<Login/>}/>
                     <Route path="registrarse" element={<Register/>}/>
-                    <Route path="cargarProducto" element={<LoadProduct/>}/>
+                    <Route path="cargarProducto" element={<LoadProduct/>}/> {/* Esto es para el Admin */}
                     <Route path="editarProducto" element={<EditProduct/>}/>
         </Route>
         <Route path="*" element={<NotFoundPage/>} />
