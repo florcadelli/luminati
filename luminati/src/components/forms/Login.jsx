@@ -3,6 +3,7 @@ import styles from'../../styles/forms-styles/forms.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons';
 import {Formik, Form, Field, ErrorMessage} from 'formik'
+import {Link} from 'react-router-dom';
 
 const Login = ({}) => {
 
@@ -85,7 +86,7 @@ return (
     
             <p><a className="forgot-password" href="">Olvido su contraseña?</a></p>
             <input className={styles.button} type="submit" value="INICIAR SESIÓN" />
-            <p><a href="">REGISTRARSE</a></p>
+            <p><Link to="/formulario/registrarse">REGISTRARSE</Link></p>
             {submittedForm && <p className={styles.success}>Formulario enviado</p>}
         </div>
      

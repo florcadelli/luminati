@@ -2,13 +2,15 @@ import ProductInCart from "./ProductInCart";
 import styles from './../../styles/cart.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import {Link} from 'react-router-dom';
 
 const Cart = () => {
     return (
         <div className={styles.container}>
             <div className={styles.cartHeader}>
                 <div className={styles.divBackIcon}>
-                    <FontAwesomeIcon icon={faChevronLeft} className={styles.backIcon} />
+                    <Link to="/"><FontAwesomeIcon icon={faChevronLeft} className={styles.backIcon} /></Link>
+                    
                 </div>
                 <p>Mi Carrito</p>
                 <p></p>

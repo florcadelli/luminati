@@ -1,9 +1,10 @@
 import recibidor from './../../img/recibidor.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faObjectGroup } from '@fortawesome/free-solid-svg-icons';
 import styles from './../../styles/productDetail.module.css'
 import { RiAddFill, RiSubtractFill } from 'react-icons/ri';
-import { BsCart2 } from 'react-icons/bs'; 
+import { BsCart2 } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const ProductDetail = () => {
     return (
@@ -13,7 +14,7 @@ const ProductDetail = () => {
             </div>
 
             <div className={styles.divBackIcon}>
-                <FontAwesomeIcon icon={faChevronLeft} className={styles.backIcon} />
+                <Link to="/"><FontAwesomeIcon icon={faChevronLeft} className={styles.backIcon} /></Link>
             </div>
             <h1 className={styles.productName}>Mueble Recibidor</h1>
             <div className={styles.productDetail}>
@@ -30,7 +31,7 @@ const ProductDetail = () => {
                 Ideales para espacios pequeños o la entrada del hogar
             </p>
             <div className={styles.buy}>
-                <BsCart2 className={styles.cartIcon}/>
+                <Link to="/carrito"><BsCart2 className={styles.cartIcon} /></Link>
                 <button className={styles.addCart}>Agregar al carrito</button>
             </div>
         </div>
