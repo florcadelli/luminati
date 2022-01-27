@@ -33,10 +33,11 @@
 }
 .register input:focus{
     outline: none;
+    background-color: #f3f3f3;
 }
 .register form .final{
     padding-top:30px;
-    font-size: 1rem;
+    font-size: 1.6rem;
     text-align: center;
     width: 90%;
 

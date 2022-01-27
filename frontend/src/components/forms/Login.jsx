@@ -35,7 +35,7 @@ return (
            if(!values.password){
             errors.password = 'Por favor ingresa una contraseña'
         }else if(!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])\w{6,}$/.test(values.password)){
-          errors.password= 'La contraseña es incorrecto'
+          errors.password= 'La contraseña es incorrecta'
         }
 
           return errors;
