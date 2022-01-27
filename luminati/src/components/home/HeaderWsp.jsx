@@ -6,7 +6,7 @@ function HeaderWsp() {
   return (
     <div className={styles.container__btn__wsp}>
       <a
-        href="http://api.whatsapp.com/send?phone=1139202793"
+        href="http://api.whatsapp.com/send?phone=1136427868"
         className={styles.btn__wsp}
         target="_blank"
       >
