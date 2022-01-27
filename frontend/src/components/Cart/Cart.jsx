@@ -9,7 +9,7 @@ const Cart = () => {
         <div className={styles.container}>
             <div className={styles.cartHeader}>
                 <div className={styles.divBackIcon}>
-                    <Link to="/"><FontAwesomeIcon icon={faChevronLeft} className={styles.backIcon} /></Link>
+                    <Link to="/luminati"><FontAwesomeIcon icon={faChevronLeft} className={styles.backIcon} /></Link>
                     
                 </div>
                 <p>Mi Carrito</p>
