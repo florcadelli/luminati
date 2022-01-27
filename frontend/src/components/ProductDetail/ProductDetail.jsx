@@ -14,7 +14,7 @@ const ProductDetail = () => {
             </div>
 
             <div className={styles.divBackIcon}>
-                <Link to="/"><FontAwesomeIcon icon={faChevronLeft} className={styles.backIcon} /></Link>
+                <Link to="/luminati"><FontAwesomeIcon icon={faChevronLeft} className={styles.backIcon} /></Link>
             </div>
             <h1 className={styles.productName}>Mueble Recibidor</h1>
             <div className={styles.productDetail}>

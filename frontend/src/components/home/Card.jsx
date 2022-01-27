@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 function Card() {
   return (
     <>
-
       <div className={styles.containerCard}>
         <Link to="/detalleProducto">
           <img src={require("../../img/iluminacion01.jpg")} />
