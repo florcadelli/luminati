@@ -126,24 +126,28 @@
     color:red;
 }
 .register form .pattern{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 
-@media only screen and (min-width:480px){
-    .wrap_form {
-        /* background-color: green; */
-        margin:auto;
-        height: 500px;
-        width:50%;
-    }
-}
+
 
 @media only screen and (min-width:768px){
     .wrap_form{
-        /* background-color: red; */
-        height: 700px;
-      
+
+        width: 100%;
+        height: 650px;
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;     
+    }
+    .greeting{
+        position:relative;
+        right:15%;
+    }
+    .register{
+        width: 50%;
     }
     .register form{
         font-size: 1.6rem;
@@ -151,12 +155,16 @@
     .wrap_form a{
         font-size: 1.4rem;
     }
+   
 }
 
 @media only screen and (min-width:1024px){
-    .wrap_form{
-        /* background-color: violet; */
-        width:40%;
+   
+    .register{
+        width: 40%;
+    }
+    .register form .pattern{
+        font-size: 1.4rem;
     }
 }
 

@@ -51,14 +51,14 @@ const Register = ({ }) => {
             if (!values.password) {
               errors.password = 'Por favor ingresa una contraseña'
             } else if (!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])\w{6,}$/.test(values.password)) {
-              errors.password = 'La contraseña es incorrecto'
+              errors.password = 'La contraseña es incorrecta'
             }
             //validacion de contraseña repetida
             //  toma lo ingresado en el campo de contraseña y compara lo ingresado en el campo nuevo
             if (!values.password) {
               errors.repeated_password = 'Por favor repite la contraseña'
             } else if (values.password !== values.repeated_password) {
-              errors.repeated_password = 'La contraseña es incorrecto'
+              errors.repeated_password = 'Por favor repite la contraseña'
             }
             return errors;
           }}
@@ -67,7 +67,8 @@ const Register = ({ }) => {
             resetForm();
             console.log('formulario enviado!')
             changesubmittedForm(true)
-            setTimeout(() => changesubmittedForm(false), 3000);
+            // setTimeout(() => changesubmittedForm(false), 3000);
+
           }}
         >
           {({ errors }) => (
