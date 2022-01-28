@@ -333,6 +333,10 @@ hr{
     .navBottom{
         visibility: hidden;
     }
+
+    .navScroll{
+        justify-content: center;
+    }
     .headerLogo img{
         display: none;
     }
@@ -361,7 +365,7 @@ hr{
         margin-bottom: 1rem;
         margin-left: 3rem;
         padding-top: 2rem;
-        justify-content: center;
+        justify-content: space-between;
     
         display: flex;
         flex-direction: row;
