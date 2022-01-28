@@ -98,6 +98,7 @@ const Register = ({ }) => {
 
 
               <label htmlFor="password">Contraseña</label>
+
               <div className={styles.wrap}>
 
                 <Field className={styles.password}
@@ -110,6 +111,7 @@ const Register = ({ }) => {
                 <FontAwesomeIcon icon={faEye} />
                 {/* <FontAwesomeIcon icon={faEyeSlash} /> */}
               </div>
+              <p className={styles.pattern}> Mínimo 6 caracteres, una mayúscula, una minúscula y un número</p>
               <ErrorMessage name='password' component={() => (
                 <div className={styles.error}> {errors.password}</div>
               )} />

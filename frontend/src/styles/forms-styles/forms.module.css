@@ -125,6 +125,9 @@
 .register form .error{
     color:red;
 }
+.register form .pattern{
+    font-size: 1rem;
+}
 
 
 @media only screen and (min-width:480px){
