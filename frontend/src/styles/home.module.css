@@ -374,9 +374,15 @@ hr{
     
         
     }
+    .card__homefooterCopyright{
+        padding-bottom: 0rem;
+    }
 }
 
 @media only screen and (min-width:1024px){
+    .card__homefooterCopyright{
+        padding-bottom: 0rem;
+    }
 
 }
 
