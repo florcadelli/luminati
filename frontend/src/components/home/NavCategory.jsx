@@ -55,13 +55,6 @@ function NavCategory() {
 
       <a href="#" className={styles.topnav__link}>
         <div className={styles.topnav__icon}>
-          <BsFillDoorOpenFill />
-        </div>
-        <span className={styles.nav__text}>Recibidores</span>
-      </a>
-
-      <a href="#" className={styles.topnav__link}>
-        <div className={styles.topnav__icon}>
           <GiFlowerPot />
         </div>
         <span className={styles.nav__text}>Macetas</span>
@@ -83,12 +76,6 @@ function NavCategory() {
         <span className={styles.nav__text}>Percheros</span>
       </a>
 
-      <a href="#" className={styles.topnav__link}>
-        <div className={styles.topnav__icon}>
-          <BiBed />
-        </div>
-        <span className={styles.nav__text}>Almohadones</span>
-      </a>
 
       <a href="#" className={styles.topnav__link}>
         <div className={styles.topnav__icon}>
@@ -101,27 +88,8 @@ function NavCategory() {
         <div className={styles.topnav__icon}>
           <BiBed />
         </div>
-        <span className={styles.nav__text}>Almohadones</span>
+        <span className={styles.nav__text}>Deco</span>
       </a>
-
-      <a href="#" className={styles.topnav__link}>
-        <div className={styles.topnav__icon}>
-          <BsFillBasketFill  />
-        </div>
-        <span className={styles.nav__text}>Canastos</span>
-      </a>
-
-      <a href="#" className={styles.topnav__link}>
-        <div className={styles.topnav__icon}>
-          <GiCandleLight />
-        </div>
-        <span className={styles.nav__text}>Velas</span>
-      </a>
-
-
-
-
-
 
 
       <a href="#" className={styles.topnav__link}>
