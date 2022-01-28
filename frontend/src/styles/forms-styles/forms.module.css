@@ -35,6 +35,28 @@
     outline: none;
     background-color: #f3f3f3;
 }
+.register select{
+    border: none;
+    border-bottom: 1px solid var(--principalColor);
+    margin-top:10px;
+    color:  var(--tertiaryColor);
+    background-color: #f3f3f3;
+}
+.register select:focus{
+    outline: none;
+    background-color: #f3f3f3;
+}
+.register textarea{
+    border: none;
+    border-bottom: 1px solid var(--principalColor);
+    margin-top:10px;
+    color:  var(--tertiaryColor);
+    background-color: #f3f3f3;
+}
+.register textarea:focus{
+    outline: none;
+    background-color: #f3f3f3;
+}
 .register form .final{
     padding-top:30px;
     font-size: 1.6rem;
