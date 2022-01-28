@@ -85,6 +85,7 @@
     text-align: justify;
     line-height: 3rem;
     margin: 2.4rem;
+    color: var(--secondaryColor);
 }
 
 .buy {
@@ -104,7 +105,7 @@
 }
 
 .cartIcon {
-    font-size: 2.4rem;
+    font-size: 3.5rem;
     color: var(--tertiaryColor);
     margin-left: 3rem;
 }
@@ -150,11 +151,32 @@
 
 @media only screen and (min-width:1024px){
 
+    .productName{
+        font-size: 3rem;
+    }
+
+    .productDetail p {
+        font-size: 4rem;
+    }
+
+    .productNumber p {
+        font-size: 3.7rem;
+    }
+
+    .productDescription {
+        font-size: 2.5rem;
+    }
+
+    .addCart {
+        font-size: 3rem;
+    }
+
     .container{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding: 60px 0px;
+        padding: 20px 0px;
+       
     }
 
     .divBackIcon{
@@ -162,7 +184,7 @@
     }
 
     .photoDiv{
-        width: 35%;
+        width: 25%;
         margin-left: 0%;
        
     }
@@ -172,6 +194,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        /* height: 750px; */
+       
     }
 
     .versionDesk{
