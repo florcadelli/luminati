@@ -5,13 +5,6 @@
     padding: 30px 20px;
 
 }
-
-.header img{
-    border-radius: 50%;
-    width: 100%;
-    box-shadow: 0px 7px 5px rgba(138, 149, 158, 0.2);
-    
-}
 .header .line{
     background-color: var(--tertiaryColor);
     margin-left:10px;
@@ -19,19 +12,23 @@
     height: 1px;
     width: 50%;
 }
-/* 
+
+.header img{
+    border-radius: 50%;
+    width: 100%;
+    box-shadow: 0px 7px 5px rgba(138, 149, 158, 0.2);
+    
+}
+.header .logo{
+    width: 35%;
+
+}
+
+ 
 @media only screen and (min-width:480px){
-    .header img{
-        border-radius: 50%;
-        width: 20%;
-        border:3px solid red;
-        
+    .header {
+        display: none;
     }
 }
 
-@media only screen and (min-width:768px){
-    .header img{
-        width: 10%;
-        border:3px solid green;    
-    }
-} */
+

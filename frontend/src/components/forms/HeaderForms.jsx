@@ -6,7 +6,7 @@ const HeaderForms = ({ props }) => {
   return (
     <div className={styles.header}>
       <div className={styles.line}></div>
-      <Link to="/">
+      <Link className={styles.logo}  to="/">
         <img src={require("../../img/logo-luminati.png")} alt="Logo" />
       </Link>
       <div className={styles.line}></div>
