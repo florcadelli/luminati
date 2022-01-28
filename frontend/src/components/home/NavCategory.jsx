@@ -7,16 +7,29 @@ import { GiFlexibleLamp } from "react-icons/gi";
 import { BiBed } from "react-icons/bi";
 import { BiDrink } from "react-icons/bi";
 import { GiFlowerPot } from "react-icons/gi";
-import { GiBookshelf} from "react-icons/gi";
+import { GiBookshelf } from "react-icons/gi";
+import { GiDesk } from "react-icons/gi";
 
 function NavCategory() {
   return (
     <nav className={styles.navScroll}>
       <a href="#" className={styles.topnav__link}>
         <div className={styles.topnav__icon}>
+          <GiFlexibleLamp />
+        </div>
+        <span className={styles.nav__text}>Iluminación</span>
+      </a>
+      <a href="#" className={styles.topnav__link}>
+        <div className={styles.topnav__icon}>
+          <GiDesk />
+        </div>
+        <span className={styles.nav__text}>Escritorios</span>
+      </a>
+      <a href="#" className={styles.topnav__link}>
+        <div className={styles.topnav__icon}>
           <BiBed />
         </div>
-        <span className={styles.nav__text}>Dormitorio</span>
+        <span className={styles.nav__text}>Almohadones</span>
       </a>
       <a href="#" className={styles.topnav__link}>
         <div className={styles.topnav__icon}>
@@ -36,17 +49,12 @@ function NavCategory() {
         </div>
         <span className={styles.nav__text}>Asientos</span>
       </a>
-      <a href="#" className={styles.topnav__link}>
-        <div className={styles.topnav__icon}>
-          <GiFlexibleLamp />
-        </div>
-        <span className={styles.nav__text}>Iluminación</span>
-      </a>
+
       <a href="#" className={styles.topnav__link}>
         <div className={styles.topnav__icon}>
           <BiDrink />
         </div>
-        <span className={styles.nav__text}>Mi bar</span>
+        <span className={styles.nav__text}>Bares</span>
       </a>
       <a href="#" className={styles.topnav__link}>
         <div className={styles.topnav__icon}>
@@ -58,7 +66,7 @@ function NavCategory() {
         <div className={styles.topnav__icon}>
           <GiBookshelf />
         </div>
-        <span className={styles.nav__text}>Estantes</span>
+        <span className={styles.nav__text}>Estanterías</span>
       </a>
 
       {/* <div className={styles.item}>
