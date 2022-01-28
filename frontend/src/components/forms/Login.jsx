@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons';
 import {Formik, Form, Field, ErrorMessage} from 'formik'
 import {Link} from 'react-router-dom';
+import SuccessfulForm from './SuccessfulForm.jsx';
 
 const Login = ({}) => {
 
@@ -35,7 +36,7 @@ return (
            if(!values.password){
             errors.password = 'Por favor ingresa una contraseña'
         }else if(!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])\w{6,}$/.test(values.password)){
-          errors.password= 'La contraseña es incorrecto'
+          errors.password= 'La contraseña es incorrecta'
         }
 
           return errors;
@@ -44,7 +45,8 @@ return (
           resetForm();
           console.log('formulario enviado!')
           changesubmittedForm(true)
-          setTimeout (() => changesubmittedForm(false),3000);
+          setTimeout (() => changesubmittedForm(false),2000);
+
       }}
     >
         {( { errors}) => (
@@ -87,7 +89,7 @@ return (
             <p><a className="forgot-password" href="">Olvido su contraseña?</a></p>
             <input className={styles.button} type="submit" value="INICIAR SESIÓN" />
             <p><Link to="/formulario/registrarse">REGISTRARSE</Link></p>
-            {submittedForm && <p className={styles.success}>Formulario enviado</p>}
+            {submittedForm && <SuccessfulForm text={"logueado"} />}
         </div>
      
     

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { Formik, Form, Field, ErrorMessage } from 'formik'
+import SuccessfulForm from './SuccessfulForm.jsx';
 
 
 
@@ -137,7 +138,7 @@ const Register = ({ }) => {
                 <p><a className="forgot-password" href="">Olvido su contraseña?</a></p>
                 <input className={styles.button} type="submit" value="REGISTRARSE" />
                 <p><Link to="/formulario/login">Ya tienes una cuenta? INICIAR SESIÓN</Link></p>
-                {submittedForm && <p className={styles.success}>Formulario enviado</p>}
+                {submittedForm && <SuccessfulForm text={"registrado"}/>}
               </div>
 
 

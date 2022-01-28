@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 function BottomIconNav() {
   return (
     <nav className={styles.navBottom}>
-      <Link to="/" className={styles.nav__link}>
+      <Link to="/luminati" className={styles.nav__link}>
         <div className={styles.nav__icon}><TiHome/></div>
         
       </Link>

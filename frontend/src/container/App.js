@@ -20,7 +20,7 @@ function App() {
       {/* <HeaderLogo/> */} {/* Solo tiene que aparecer en Desktop */}
       <Routes>
 
-        <Route path="/" element={<Home/>} />
+        <Route path="/luminati" element={<Home/>} />
         <Route path="/detalleProducto" element={<ProductDetail/>} />
         <Route path="/carrito" element={<Cart/>} />
         <Route path="/formulario/*" element={<Form/>}> 
