@@ -16,7 +16,7 @@ const Cart = () => {
                 <p></p>
             </div>
             
-            <main>
+            <main className={styles.mainCart}>
             <ProductInCart />
             <ProductInCart />
             <ProductInCart />
@@ -27,7 +27,7 @@ const Cart = () => {
             
             
 
-            <footer>
+            <footer className={styles.footerCart}>
                 <div className={styles.line}></div>
 
                 <div className={styles.totalPrice}>
