@@ -1,18 +1,12 @@
 import React from "react";
 import styles from "../../styles/home.module.css";
-import { GiMirrorMirror } from "react-icons/gi";
-import { GiTable } from "react-icons/gi";
-import { GiSofa } from "react-icons/gi";
-import { GiFlexibleLamp } from "react-icons/gi";
-import { BiBed } from "react-icons/bi";
-import { BiDrink } from "react-icons/bi";
-import { GiFlowerPot, GiBookshelf } from "react-icons/gi";
 
-import { GiDesk } from "react-icons/gi";
-import { GiCandleLight } from "react-icons/gi";
-import { BsFillBasketFill } from "react-icons/bs";
-import { GiRunningShoe} from "react-icons/gi";
-import { GrCoatCheck} from "react-icons/gr";
+import { BiDrink } from "react-icons/bi";
+import { GiMirrorMirror, GiTable, GiSofa, GiFlexibleLamp, GiFlowerPot, GiBookshelf, GiHanger, GiRunningShoe, GiCandleLight, GiDesk } from "react-icons/gi";
+
+
+
+
 
 function NavCategory() {
   return (
@@ -70,7 +64,7 @@ function NavCategory() {
 
       <a href="#" className={styles.topnav__link}>
         <div className={styles.topnav__icon}>
-          <GrCoatCheck />
+          <GiHanger />
         </div>
         <span className={styles.nav__text}>Percheros</span>
       </a>
