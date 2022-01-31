@@ -45,7 +45,7 @@ return (
           resetForm();
           console.log('formulario enviado!')
           changesubmittedForm(true)
-          setTimeout (() => changesubmittedForm(false),2000);
+          setTimeout (() => changesubmittedForm(false),3000);
 
       }}
     >
@@ -78,6 +78,7 @@ return (
          <FontAwesomeIcon icon={faEye} />
          {/* <FontAwesomeIcon icon={faEyeSlash} /> */}
          </div>
+         <p className={styles.pattern}> Mínimo 6 caracteres, una mayúscula, una minúscula y un número</p>
          <ErrorMessage name='password' component={() => (
             <div className={styles.error}> {errors.password}</div>
         )} />

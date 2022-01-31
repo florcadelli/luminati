@@ -1,11 +1,11 @@
-.header{
+.header_form{
     display:flex;
     justify-content: center;
     align-items: center;
     padding: 30px 20px;
 
 }
-.header .line{
+.header_form .line{
     background-color: var(--tertiaryColor);
     margin-left:10px;
     margin-right:10px;
@@ -13,26 +13,26 @@
     width: 50%;
 }
 
-.header img{
+.header_form img{
     border-radius: 50%;
     width: 100%;
     box-shadow: 0px 7px 5px rgba(138, 149, 158, 0.2);
     
 }
-.header .logo{
+.header_form .logo{
     width: 35%;
 
 }
-.desktop{
+.desktop_form{
     display:none;
 }
 
  
-@media only screen and (min-width:480px){
-    .header {
+@media only screen and (min-width:768px){
+    .header_form{
         display: none;
     }
-    .desktop{
+    .desktop_form{
         display:block;
     }
 }

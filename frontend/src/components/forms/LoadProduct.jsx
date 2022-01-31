@@ -12,6 +12,20 @@ const LoadProduct = ({ props }) => {
       <p className={styles.greeting}>Cargar Producto</p>
       <section className={styles.register}>
         <form action="/register.html" method="POST">
+        <label htmlFor="category">Categoría</label>
+          <select >        
+                    <option value="Iluminacion">Iluminación</option>
+                    <option value="Escritorios">Escritorios</option>
+                    <option value="Mesas">Mesas</option>
+                    <option value="Bares">Bares</option>
+                    <option value="Estanterias">Estanterías</option>
+                    <option value="Macetas">Macetas</option>
+                    <option value="Espejos">Espejos</option>
+                    <option value="Percheros">Percheros</option>
+                    <option value="Zapateros">Zapateros</option>
+                    <option value="Deco">Deco</option>
+          </select>
+
           <label htmlFor="product-name">Nombre producto</label>
           <input
             className="user-name"
@@ -40,6 +54,8 @@ const LoadProduct = ({ props }) => {
           ></textarea>
 
           {/* <Field name ='description' as='textarea' /> */}
+          
+        
 
           <div className={styles.photo}>
             <label htmlFor="picture" className={styles.file}>
