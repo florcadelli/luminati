@@ -2,7 +2,6 @@
 .containerGrid{
 
     display: grid;
-    /* padding: 5%; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 15px;
@@ -11,6 +10,7 @@
     padding-top: 10px;
    
 }
+
 
 .photoDiv{
     width: 100%;
@@ -39,11 +39,7 @@
     justify-self: flex-end;
     margin-top: 1px;
     font-size: 2.4rem;
-    color: var(--tertiaryColor);
-    /* border: 2px solid grey;
-    background-color: white;
-    border-radius: 50%; */
-    
+    color: var(--tertiaryColor);    
 }
 
 .minus, .plus{
@@ -81,4 +77,51 @@
     justify-self: flex-end;
     align-self: center;
     font-size: 1.6rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Tablet                                   */
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width:768px){
+
+    .productName{
+        font-size: 1.8rem;
+        text-align: end;
+        margin-right: 20px;
+    }
+    .counter{
+        display: flex;
+        justify-content: flex-end;
+        
+        /* grid-column: 2/3;
+        grid-row: 3/4; */
+    }
+    .counter p{
+        margin: 0px 20px 0px;
+    }
+    .productPrice{
+        letter-spacing: 2px;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Desktop                                  */
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width:1024px){
+
+    .containerGrid{
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .photoDiv{
+        overflow-y: hidden;
+    }
+    
+    .productName{
+        padding-left: 10px;
+        letter-spacing: 2px;
+    }
+    
 }
