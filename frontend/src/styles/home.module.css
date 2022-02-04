@@ -123,6 +123,8 @@
     display: flex;
     flex-direction: row;
     overflow: auto;
+    object-fit: cover;    
+    height: 22rem;
 }
 .containerCard .img__Carrito{
     
