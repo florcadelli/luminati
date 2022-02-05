@@ -1,9 +1,11 @@
 package com.example.luminati.model;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.Set;
 
 
 @Entity
@@ -18,17 +20,22 @@ public class Category {
 
     private String name;
 
+    @OneToMany(mappedBy = "category")
+    @JsonIgnore //Relacion bidireccional
+    private Set<Product> products;
+
     public Category(){}
 
-    public Category(String name) {
+    public Category(String name, Set<Product> products) {
         this.name = name;
+        this.products = products;
     }
 
     @Override
     public String toString() {
         return "Category{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
+                ", products=" + products +
                 '}';
     }
 }
