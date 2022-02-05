@@ -11,6 +11,7 @@ import Login from '../components/forms/Login';
  import HeaderLogo from '../components/home/HeaderLogo';
 import LoadProduct from '../components/forms/LoadProduct';
 import EditProduct from '../components/forms/EditProduct';
+import CheckOut from '../components/CheckOut/CheckOut';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/luminati" element={<Home/>} />
         <Route path="/detalleProducto" element={<ProductDetail/>} />
         <Route path="/carrito" element={<Cart/>} />
+        <Route path="/checkOut" element={<CheckOut/>} />
         <Route path="/formulario/*" element={<Form/>}> 
                     <Route path="login" element={<Login/>}/>
                     <Route path="registrarse" element={<Register/>}/>

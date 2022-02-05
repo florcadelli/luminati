@@ -41,8 +41,10 @@ const Cart = () => {
                             <p>Total</p>
                             <p>$ 30.000</p>
                         </div>
-
+                        <Link to="/checkOut" > 
                         <button className={styles.continueButton}>Continuar</button>
+                        </Link>
+                        
 
                     </footer>
 
