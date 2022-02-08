@@ -2,12 +2,14 @@
 
 .headerLogo{
     display:flex;
+    justify-content:center;
     background-color: var(--principalColor);
 }
 
 .headerLogo img{
     margin-left: auto ;
     margin-right: auto;
+    
 }
 .headerLogoDesktop{
     display: none;
