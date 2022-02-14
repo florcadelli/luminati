@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -24,13 +25,13 @@ public class Cart {
             joinColumns = @JoinColumn(name = "id_cart"),
             inverseJoinColumns = @JoinColumn(name = "id_product")
     )
-    private Set<Product> products;
+    private List<Product> products;
 
     public Cart(){
 
     }
 
-    public Cart(String status, Set<Product> products) {
+    public Cart(String status, List<Product> products) {
         this.status = status;
         this.products = products;
     }
