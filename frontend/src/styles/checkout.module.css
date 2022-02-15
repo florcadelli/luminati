@@ -7,6 +7,10 @@
     color: black;
 }
 
+.backIcon{
+    color: black;
+}
+
 .containerCheckHeader{
     display: flex;
     padding: 5%;
@@ -19,10 +23,29 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 0.2rem;
+    color: #303030;
 }
 
 .checkOutForm {
     padding: 5%;
+    color: #303030;
+}
+
+.checkOutForm h3{
+   color: #909090;
+   font-weight: 400;
+}
+
+.checkOutForm button{
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding: 1.6rem 0px;
+    border-radius: 8px;
+    outline:none;
+    box-shadow: 0px; 
+    margin-top: 1.9rem;    
+    width: 100%;
+    
 }
 
 .checkFormName, .checkFormDirection{
@@ -31,4 +54,28 @@
     font-size: 1.4rem;
     font-family: 'Nunito', sans-serif;
     margin: 1rem 0rem 2rem;
+}
+
+.exito{
+    color: green;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.problem{
+    color: red ;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.checkFormDirection .checkFooter{
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    width: 91%;
+    margin-left: 4.8%;
+    padding: 5% 0%;
+    padding-top: 5%;
+    border-top: 2px solid var(--secondaryColor);
+    background-color: #f3f3f3;
 }
